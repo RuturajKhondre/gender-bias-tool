@@ -1,0 +1,44 @@
+{
+    "steps": [
+      {
+        "id": 1,
+        "title": "Welcome",
+        "content": "Welcome to the Gender Bias Identification Tool tutorial! This guide will help you understand how to use our tool effectively."
+      },
+      {
+        "id": 2,
+        "title": "Tool Introduction",
+        "content": "Our tool helps identify and correct gender bias in text. It analyzes language for stereotypes, exclusionary terms, and assumptions based on gender."
+      },
+      {
+        "id": 3,
+        "title": "Inputting Text",
+        "content": "To begin, enter your text in the input box. You can type directly or paste text from another source."
+      },
+      {
+        "id": 4,
+        "title": "Analyzing Text",
+        "content": "Click the 'Analyze' button to process your text. The tool will scan for potential gender bias."
+      },
+      {
+        "id": 5,
+        "title": "Interpreting Results",
+        "content": "Results will show highlighted biased terms, suggested alternatives, and explanations. Pay attention to the type of bias identified."
+      },
+      {
+        "id": 6,
+        "title": "Using AI Suggestions",
+        "content": "Our AI provides context-aware suggestions for improving your text. Consider these recommendations to make your writing more inclusive."
+      },
+      {
+        "id": 7,
+        "title": "Practice Exercise",
+        "content": "Let's try an example! We'll provide a sample text for you to analyze and correct using the tool."
+      },
+      {
+        "id": 8,
+        "title": "Completion",
+        "content": "Congratulations! You've completed the tutorial. You're now ready to use the Gender Bias Identification Tool to create more inclusive content."
+      }
+    ]
+  }

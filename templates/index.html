@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Bias Identification Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="/static/css/tutorial.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎩 Gender Bias Identification Tool</h1>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+            <em>Dark Mode</em>
+        </div>
+        <div class="input-container">
+            <textarea id="input-text" placeholder="Enter text to analyze"></textarea>
+            <div class="button-container">
+                <button id="analyze-btn">Analyze</button>
+                <button id="clear-btn">Clear Text</button>
+            </div>
+            <div class="refresh-container">
+                <button id="refresh-btn">Refresh</button>
+            </div>
+        </div>
+        <div id="result"></div>
+
+        <div id="action-buttons">
+            <div id="export-container" style="display: none;">
+                <select id="export-format">
+                    <option value="json">JSON</option>
+                    <option value="csv">CSV</option>
+                    <option value="txt">Plain Text</option>
+                    <option value="pdf">PDF</option>
+                    <option value="html">HTML</option>
+                </select>
+                <button id="export-btn">Export Results</button>
+            </div>
+
+            <div id="save-analysis-container" style="display: none;">
+                <input type="text" id="analysis-name" placeholder="Enter analysis name">
+                <button id="save-analysis-btn">Save Analysis</button>
+                <span id="save-analysis-message"></span>
+            </div>
+        </div>
+
+        <div id="history-container">
+            <h2>Previous Analyses</h2>
+            <div id="history-list"></div>
+        </div>
+        <div class="info-section">
+            <h2>Examples of Good vs. Biased Writing</h2>
+            <div class="info-content">
+                <div class="example">
+                    <h3>Example 1:</h3>
+                    <p><strong>Biased:</strong> "The chairman called all businessmen to the meeting."</p>
+                    <p><strong>Inclusive:</strong> "The chairperson called all business people to the meeting."</p>
+                </div>
+                <div class="example">
+                    <h3>Example 2:</h3>
+                    <p><strong>Biased:</strong> "Each student should hand in his assignment."</p>
+                    <p><strong>Inclusive:</strong> "Students should hand in their assignments."</p>
+                </div>
+                <div class="example">
+                    <h3>Example 3:</h3>
+                    <p><strong>Biased:</strong> "The lady doctor performed the surgery."</p>
+                    <p><strong>Inclusive:</strong> "The doctor performed the surgery."</p>
+                </div>
+            </div>
+        </div>
+        <div class="info-section">
+            <h2>Learn More About Gender Bias</h2>
+            <div class="info-content">
+                <p>Gender bias in language can perpetuate stereotypes and inequality. It's important to be aware of how our words can impact others.</p>
+                <h3>Common Types of Gender Bias in Language:</h3>
+                <ul>
+                    <li>Using male-centric terms as default (e.g., "mankind" instead of "humanity")</li>
+                    <li>Gendered job titles (e.g., "policeman" instead of "police officer")</li>
+                    <li>Stereotypical descriptions (e.g., "bossy" for assertive women, "emotional" for men showing feelings)</li>
+                </ul>
+                <p>By using inclusive language, we can create a more equitable environment for all genders.</p>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div id="tutorial-overlay">
+        <div class="tutorial-container">
+            <h2 id="tutorial-step-title"></h2>
+            <p id="tutorial-step-description"></p>
+            <div class="tutorial-navigation">
+                <button id="tutorial-prev-btn" type="button">Previous</button>
+                <button id="tutorial-next-btn">Next</button>
+                <button id="tutorial-finish-btn" style="display: none;">Finish</button>
+                <button id="tutorial-skip-btn">Skip Tutorial</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="/static/js/tutorial.js"></script>
+</body>
+</html>

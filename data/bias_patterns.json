@@ -1,0 +1,26 @@
+{
+    "job_titles": {
+      "chairman": {"alternative": "chairperson", "severity": "medium"},
+      "policeman": {"alternative": "police officer", "severity": "medium"},
+      "fireman": {"alternative": "firefighter", "severity": "medium"},
+      "stewardess": {"alternative": "flight attendant", "severity": "medium"},
+      "mailman": {"alternative": "mail carrier", "severity": "medium"},
+      "businessman": {"alternative": "business person", "severity": "medium"},
+      "salesman": {"alternative": "salesperson", "severity": "medium"}
+    },
+    "pronouns": {
+      "he or she": {"alternative": "they", "severity": "low"},
+      "him or her": {"alternative": "them", "severity": "low"}
+    },
+    "phrases": {
+      "mankind": {"alternative": "humanity", "severity": "low"},
+      "manpower": {"alternative": "workforce", "severity": "low"},
+      "man-made": {"alternative": "artificial", "severity": "low"},
+      "girls": {"alternative": "women", "severity": "medium", "context_dependent": true}
+    },
+    "categories": {
+      "workplace": ["chairman", "businessman", "salesman"],
+      "academic": ["freshman", "upperclassman"],
+      "casual": ["guys", "girls"]
+    }
+  }

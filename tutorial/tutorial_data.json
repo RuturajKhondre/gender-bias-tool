@@ -1,0 +1,33 @@
+{
+  "examples": [
+    {
+      "id": 1,
+      "original": "The chairman called all businessmen to the meeting.",
+      "corrected": "The chairperson called all business people to the meeting.",
+      "explanation": "This sentence uses gender-specific terms 'chairman' and 'businessmen', excluding women and non-binary individuals from these professional roles.",
+      "biasType": "Occupational stereotyping and gendered language"
+    },
+    {
+      "id": 2,
+      "original": "The nurse should make sure he checks the patient's vitals regularly.",
+      "corrected": "The nurse should make sure they check the patient's vitals regularly.",
+      "explanation": "This sentence assumes the nurse is male, reinforcing gender stereotypes in healthcare professions. Nursing is often stereotypically associated with women, so using 'he' here introduces an unexpected bias.",
+      "biasType": "Pronoun bias and occupational stereotyping"
+    },
+    {
+      "id": 3,
+      "original": "For the office party, we need the girls to handle decorations and the guys to move furniture.",
+      "corrected": "For the office party, we need volunteers to handle decorations and move furniture.",
+      "explanation": "This statement assigns tasks based on gender stereotypes, assuming women are better suited for decorating and men for physical labor. It also uses informal terms 'girls' and 'guys' in a professional context.",
+      "biasType": "Gender role stereotyping and unprofessional language"
+    },
+    {
+      "id": 4,
+      "original": "As a working mother, how do you balance your career and childcare?",
+      "corrected": "As a working parent, how do you balance your career and childcare?",
+      "explanation": "This question assumes that childcare responsibilities primarily fall on mothers, reinforcing gender stereotypes in parenting. It overlooks the fact that all parents, regardless of gender, may face challenges balancing work and family.",
+      "biasType": "Parenting stereotype and assumption of gender roles"
+    }
+  ]
+}
+

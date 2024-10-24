@@ -1,0 +1,24 @@
+{
+    "chairman": {
+      "why_biased": "This term assumes the role is filled by a man, excluding women and non-binary individuals.",
+      "impact": "Using gender-specific terms for leadership roles can reinforce stereotypes and discourage diversity.",
+      "best_practice": "Use gender-neutral terms like 'chairperson' or simply 'chair' to be inclusive of all genders."
+    },
+    "policeman": {
+      "why_biased": "This term implies that only men can be police officers, excluding women and non-binary individuals from the profession.",
+      "impact": "Gender-specific job titles can discourage people from pursuing careers they perceive as not meant for their gender.",
+      "best_practice": "Use 'police officer' to refer to all members of the police force, regardless of gender."
+    },
+    "mankind": {
+      "why_biased": "This term uses 'man' to represent all of humanity, potentially excluding women and non-binary individuals.",
+      "historical_context": "Historically, 'man' was used as a generic term for humans, but language has evolved to be more inclusive.",
+      "impact": "Using male-centric language to represent all people can make women and non-binary individuals feel excluded or less valued.",
+      "best_practice": "Use terms like 'humanity', 'humankind', or 'people' to refer to all humans."
+    },
+    "girls": {
+      "why_biased": "When used to refer to adult women, this term can be infantilizing and diminish their professional status.",
+      "context_dependent": true,
+      "impact": "Using 'girls' for adult women in professional contexts can undermine their authority and reinforce gender stereotypes.",
+      "best_practice": "Use 'women' when referring to adult females. 'Girls' is appropriate when referring to female children or in certain casual contexts among friends."
+    }
+  }

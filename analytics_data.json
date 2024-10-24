@@ -1,0 +1,36 @@
+{
+  "total_texts": 1,
+  "total_bias_score": 0.0001418590545654297,
+  "biased_terms_count": {
+    "chairman": 1
+  },
+  "analyzed_texts": [
+    {
+      "text": "The chairman called all businessmen to the meeting.",
+      "timestamp": "2024-10-23T20:18:56.048852",
+      "results": [
+        {
+          "biased_term": "chairman",
+          "suggestion": {
+            "alternative": "chairperson",
+            "severity": "medium"
+          },
+          "gpt_alternative": "This group of businessmen is made up of executives - some working within the firm and others without. The chairman's name will be associated with a list of the top 20-40 managers.\n\nHow does this kind of prejudice be prevented?\n\nIn a paper that came out in the Journal of Management Studies, the authors compared an average salary of 10 years in a job to a salary for women. Men earned 20% more but still didn't get a raise; women made 21% more but still received a raise. This means that even if men started out to be more productive, their gender bias - which could mean that they were less able to make an impact in the workplace - would keep increasing despite more work. And women might be more likely to be dismissed because of their gender.\n\nIt seems likely that women will not be",
+          "explanation": {
+            "why_biased": "This term assumes the role is filled by a man, excluding women and non-binary individuals.",
+            "impact": "Using gender-specific terms for leadership roles can reinforce stereotypes and discourage diversity.",
+            "best_practice": "Use gender-neutral terms like 'chairperson' or simply 'chair' to be inclusive of all genders."
+          },
+          "gpt_explanation": "\"The role of the chairman has evolved much in time. After the establishment of the Board in 1948, the role of a chair was to provide advice to ministers and the cabinet, not to serve on the board. In 1947, as it became clear that the chair had not yet achieved its mandate, the chair was replaced by a committee which was later transferred to its original role of holding conference meetings with senior ministers. With this selection of its members, the decision to refer to the Chair as the 'chairman' evolved. The chair has no control over ministerial affairs, but a 'chairman' retains the powers for the performance of his or her role.\"\n\nWhy did it become \"chairman\"",
+          "position": 1,
+          "confidence": 0.5
+        }
+      ],
+      "ai_analysis": {
+        "bias_probability": 0.0001418590545654297,
+        "sentiment": "POSITIVE",
+        "sentiment_score": 0.9918006062507629
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Summary Report</h1>
+    <pre>{{ report }}</pre>
+    <button onclick="window.location.href='/download_summary/txt'">Download as TXT</button>
+    <button onclick="window.location.href='/download_summary/pdf'">Download as PDF</button>
+    <button onclick="window.location.href='/'">Back to Analysis</button>
+</body>
+</html>
