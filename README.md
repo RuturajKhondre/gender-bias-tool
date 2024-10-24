@@ -74,4 +74,4 @@ This project is currently in development and is not open for external contributi
 
 Please note that this project is not licensed for use, modification, or distribution. If you're interested in using or contributing to this project in the future, check back later as this status may change.
 
-For any questions or inquiries about this project, please contact [ruturajkhondre01@gmail.com].
+
