@@ -74,14 +74,14 @@ This project is currently in development and is not open for external contributi
 
 Please note that this project is not licensed for use, modification, or distribution. If you're interested in using or contributing to this project in the future, check back later as this status may change.
 
-![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page1.png))
-![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page2.png))
-![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page3.png))
-![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page4.png))
-![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page5.png))
-![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page6.png))
-![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page7.png))
-![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page8.png))
+![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page1.png)
+![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page2.png)
+![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page3.png)
+![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page4.png)
+![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page5.png)
+![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page6.png)
+![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page7.png)
+![image alt]([image_url](https://github.com/RuturajKhondre/gender-bias-tool/blob/b0f54d12792e8d9b11f201f317678559a2c91d18/page8.png)
 
 
 
